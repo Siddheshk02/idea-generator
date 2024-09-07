@@ -238,7 +238,7 @@ export default function Component() {
       </main>
 
       <footer className="py-6 px-4 sm:px-6 lg:px-8 text-center text-sm text-blue-300 bg-gray-800">
-        © 2023 Nexia Idea Generator. All rights reserved.
+        © 2024 Nexia Idea Generator. All rights reserved.
       </footer>
     </div>
   )
