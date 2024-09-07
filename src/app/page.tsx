@@ -104,7 +104,7 @@ export default function Component() {
           <Cpu className="w-8 h-8 text-white" />
           <div>
             <h1 className="text-3xl font-bold text-white">
-              Nexia Idea Generator
+              AI Idea Generator
             </h1>
             <p className="text-sm text-blue-200">Turn Your Thoughts Into Reality</p>
           </div>
@@ -238,7 +238,7 @@ export default function Component() {
       </main>
 
       <footer className="py-6 px-4 sm:px-6 lg:px-8 text-center text-sm text-blue-300 bg-gray-800">
-        © 2024 Nexia Idea Generator. All rights reserved.
+        © 2024 AI Idea Generator. All rights reserved.
       </footer>
     </div>
   )
