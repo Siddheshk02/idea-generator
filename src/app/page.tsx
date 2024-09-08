@@ -9,6 +9,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import React from 'react'
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080'
+
 type Theme = 'light' | 'dark'
 type Domain = 'Tech' | 'Health' | 'Education' | 'Finance' | 'Business' | 'Environment' | 'Science' | 'Arts' | 'Media' | 'Travel' | 'Food' | 'Security' | null
 
@@ -68,7 +70,7 @@ export default function Component() {
     setIsLoading(true)
     setError(null)
     try {
-      const response = await fetch('/api/generate-ideas', {
+      const response = await fetch(`${API_URL}/api/generate-ideas`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
