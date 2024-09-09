@@ -74,8 +74,6 @@ export default function Component() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': 'https://idea-generator-sigma.vercel.app',
-          'Origin': 'https://idea-generator-sigma.vercel.app'
         },
         body: JSON.stringify({ domain, description: problem }),
       })
